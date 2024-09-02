@@ -2,10 +2,10 @@
   "name": "contryapi_",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
- "scripts": {
-  "build": "parcel build index.html"
-},
+  "scripts": {
+    "start": "parcel index.html",
+    "start": "parcel build index.html"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
