@@ -1,0 +1,44 @@
+.not-found-error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.not-found-error h1 {
+  font-size: 96px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.not-found-error h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.not-found-error p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+.not-found-error button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.not-found-error button:hover {
+  background-color: #3e8e41;
+}

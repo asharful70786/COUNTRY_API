@@ -1,0 +1,62 @@
+.countries_List_Shimmer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.shimmercard {
+  margin: 20px;
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shimmercard__content {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.shimmercard__flag {
+  width: 100%;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 10px 10px 0 0;
+  animation: shimmer 2s infinite;
+}
+
+.shimmercard__details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shimmercard__name,
+.shimmercard__population,
+.shimmercard__region,
+.shimmercard__capital {
+  width: 100%;
+  height: 15px;
+  background-color: #ddd;
+  margin-bottom: 10px;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-color: #ddd;
+  }
+
+  50% {
+    background-color: #ccc;
+  }
+
+  100% {
+    background-color: #ddd;
+  }
+}
